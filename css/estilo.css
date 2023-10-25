@@ -1,0 +1,197 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER */
+.fondoClaro {
+    background-image: url(../img/fondo\ claro.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.logoCompa {
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+
+#navbarNavDropdown {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../img/fondo\ claro.jpg);
+    background-size: cover;
+    background-position: center;
+   
+
+}
+
+
+
+
+
+ul {
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}
+
+
+
+h1 {
+    font-size: 80px;
+    color: darkred;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+    border-radius: 35%;
+
+}
+
+
+h2 {
+
+    font-size: 50px;
+    color: darkred;
+    text-align: center;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* header {
+    background-image: url(../img/fondo\ claro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+} */
+
+/* BODY */
+body {
+    background-color: rgb(195, 58, 58);
+}
+
+h3 {
+    color: darkred;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+
+
+/* LISTAS DE NAVEGACIÓN */
+/*nav ul li {
+    display: inline-block
+   
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: beige;
+    margin: 0px 10px;
+    background-color: darkred;
+    border-radius: 10px;
+    font-size: medium;
+
+}
+
+a {
+    text-decoration: none;
+    margin: auto;
+    display: inline-block;
+    color: blanchedalmond;
+}*/
+
+/* PÁRRAFOS */
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-size: small;
+    color: blanchedalmond;
+}
+
+/* GALERÍA */
+.fotosCompa {
+    margin: 20px;
+
+    border-radius: 10px;
+}
+
+.fotito {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* FOOTER */
+p.footer {
+    margin: 20px;
+    padding: 2px;
+    text-align: end;
+    border-top: 1xp solid black;
+    color: black;
+}
+
+.abrazo {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+/* FORMULARIO */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: beige;
+}
+
+input,
+textarea {
+    display: block;
+    width: 50%;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.botoncito {
+    background-color: darkred;
+    color: beige;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+/* Logo y encabezado
+header  {
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px 5px;
+   
+} */
