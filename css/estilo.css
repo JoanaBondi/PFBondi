@@ -29,7 +29,7 @@
     background-image: url(../img/fondo\ claro.jpg);
     background-size: cover;
     background-position: center;
-   
+
 
 }
 
@@ -38,9 +38,9 @@
 
 
 ul {
-    
+
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+
 
 }
 
@@ -60,7 +60,7 @@ h1 {
 
 h2 {
 
-    font-size: 3,5vw;
+    font-size: 3, 5vw;
     color: darkred;
     text-align: center;
 
@@ -98,6 +98,14 @@ iframe {
 
 
 /* PÁRRAFOS */
+
+.primerParrafo {
+    font-size: 0.7rem;
+    border border-radius: 1px solid whitesmoke;
+    
+    padding-left: 10px;
+}
+
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -107,8 +115,8 @@ p {
 
 /* GALERÍA */
 .fotosCompa {
-   display: grid;
-   grid-template-rows: 2fr 2fr 2fr;
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr;
 }
 
 .fotito {
