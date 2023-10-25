@@ -47,7 +47,8 @@ ul {
 
 
 h1 {
-    font-size: 80px;
+    font-size: 6vw;
+
     color: darkred;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -59,7 +60,7 @@ h1 {
 
 h2 {
 
-    font-size: 50px;
+    font-size: 3,5vw;
     color: darkred;
     text-align: center;
 
@@ -95,26 +96,6 @@ iframe {
 
 
 
-/* LISTAS DE NAVEGACIÓN */
-/*nav ul li {
-    display: inline-block
-   
-    text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: beige;
-    margin: 0px 10px;
-    background-color: darkred;
-    border-radius: 10px;
-    font-size: medium;
-
-}
-
-a {
-    text-decoration: none;
-    margin: auto;
-    display: inline-block;
-    color: blanchedalmond;
-}*/
 
 /* PÁRRAFOS */
 p {
@@ -126,9 +107,8 @@ p {
 
 /* GALERÍA */
 .fotosCompa {
-    margin: 20px;
-
-    border-radius: 10px;
+   display: grid;
+   grid-template-rows: 2fr 2fr 2fr;
 }
 
 .fotito {
