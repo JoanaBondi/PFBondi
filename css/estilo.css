@@ -21,6 +21,7 @@
     margin: auto;
 }
 
+/* BARRA DE NAVEGACIÓN */
 
 #navbarNavDropdown {
     display: flex;
@@ -32,9 +33,6 @@
 
 
 }
-
-
-
 
 
 ul {
@@ -105,8 +103,8 @@ iframe {
     width: 100%;
     height: 45rem;
     justify-content: center;
-    
-    
+
+
 }
 
 /* PÁRRAFOS */
@@ -128,15 +126,23 @@ p {
 
 
 /* FOOTER */
-p.footer {
-    margin: 20px;
-    padding: 2px;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    /* border-top: 1xp solid black; */
+
+footer .container {
+
+    text-align: center;
+
+    font-size: 0.7rem;
     color: black;
+
+
 }
+
+.redesSociales a i {
+    color: black;
+
+
+}
+
 
 
 /* FORMULARIO */
@@ -171,9 +177,3 @@ textarea {
     padding: 5px 10px;
     border-radius: 5px;
 }
-
-/* MEDIAS QUERIS */
-/* @media (max-width: 766px) {
-    .videito {margin: 10px;}
-    .fondoClaro {margin: 0;}
-} */
