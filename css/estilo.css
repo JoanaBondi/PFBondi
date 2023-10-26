@@ -128,16 +128,18 @@ p {
 /* FOOTER */
 
 footer .container {
-
+    
+    width: 100%;
     text-align: center;
-
     font-size: 0.7rem;
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 
 
 }
-
+.textoFooter {
+    font-size: 1rem;
+}
 .redesSociales a i {
     color: black;
 
