@@ -88,7 +88,14 @@ iframe {
     margin: auto;
 }
 
-
+/* GALERIA DE FOTOS */
+.galeria { 
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.galeria img {max-width: 400px;
+padding: 1rem;}
 
 
 /* PÁRRAFOS */
@@ -155,8 +162,8 @@ textarea {
 }
 
 /* MEDIAS QUERIS */
-@media (max-width: 766px) {
+/* @media (max-width: 766px) {
     .videito {margin: 10px;}
     .fondoClaro {margin: 0;}
-}
+} */
 
