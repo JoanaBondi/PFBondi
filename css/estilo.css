@@ -113,8 +113,12 @@ p {
     color: blanchedalmond;
 }
 
+.fotito { padding: 50px;
+    
+}
+
 /* GALERÍA */
-.fotosCompa {
+/* .fotosCompa {
     display: grid;
     grid-template-rows: 2fr 2fr 2fr;
 }
@@ -123,7 +127,7 @@ p {
     display: block;
     width: 100%;
     height: auto;
-}
+} */
 
 
 /* FOOTER */
@@ -176,7 +180,7 @@ textarea {
 
 /* MEDIAS QUERIS */
 @media (max-width: 480px) {
-    iframe { none}
+    iframe 
 }
 
 /* Logo y encabezado
