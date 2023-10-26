@@ -44,7 +44,7 @@ ul {
 
 }
 
-
+/* TÍTULOS RESPONSIV */
 
 h1 {
     font-size: 6vw;
@@ -67,27 +67,21 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* header {
-    background-image: url(../img/fondo\ claro.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+h3 {
+    color: darkred;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3vw;
+    text-align: center;
+}
 
-
-} */
 
 /* BODY */
 body {
     background-color: rgb(195, 58, 58);
 }
 
-h3 {
-    color: darkred;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
-    text-align: center;
-}
 
+/* VIDEOS */
 
 iframe {
     display: block;
@@ -103,47 +97,29 @@ iframe {
     font-size: 0.7rem;
 
 
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-    font-size: small;
+    font-size: 0.7rem;
     color: blanchedalmond;
 }
 
-.fotito { padding: 50px;
-    
-}
-
-/* GALERÍA */
-/* .fotosCompa {
-    display: grid;
-    grid-template-rows: 2fr 2fr 2fr;
-}
-
-.fotito {
-    display: block;
-    width: 100%;
-    height: auto;
-} */
 
 
 /* FOOTER */
 p.footer {
     margin: 20px;
     padding: 2px;
-    text-align: end;
-    border-top: 1xp solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    /* border-top: 1xp solid black; */
     color: black;
 }
 
-.abrazo {
-    display: block;
-    margin: auto;
-    width: 100%;
-}
 
 /* FORMULARIO */
 form {
@@ -181,13 +157,6 @@ textarea {
 /* MEDIAS QUERIS */
 @media (max-width: 766px) {
     .videito {margin: 10px;}
-    
+    .fondoClaro {margin: 0;}
 }
 
-/* Logo y encabezado
-header  {
-    border-bottom: 1px solid black;
-    text-align: center;
-    padding: 10px 5px;
-   
-} */
