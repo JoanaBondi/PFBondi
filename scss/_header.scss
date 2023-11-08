@@ -1,0 +1,42 @@
+/* HEADER */
+.fondoClaro {
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.logoCompa {
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+#navbarNavDropdown {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+
+ul {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+
+}
+
+.navCompa {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}

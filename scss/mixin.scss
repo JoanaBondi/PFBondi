@@ -1,0 +1,20 @@
+@mixin tituloCompa {
+    font-size: 6vw;
+    color: black;
+    text-align: center;
+    border-radius: 35%;
+  }
+
+  @mixin subtituloContraste{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3, 5vw;
+    color: white;
+    text-align: center;
+  }
+
+  @mixin hacheTres {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3vw;
+    text-align: center;
+  }

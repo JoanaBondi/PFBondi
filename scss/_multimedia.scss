@@ -1,0 +1,40 @@
+/* VIDEOS */
+
+// iframe {
+//     display: block;
+//     margin: auto;
+// }
+
+/* GALERIA DE FOTOS */
+.galeria {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.galeria img {
+    max-width: 400px;
+    padding: 1rem;
+}
+
+.abrazo {
+    display: flex;
+    width: 100%;
+    height: 45rem;
+    justify-content: center;
+
+
+}
+
+
+
+.fotoCompa {
+    width: 100%;
+}
+
+/* FOTOS CAROUSEL */
+/* #carouselExampleIndicators {
+    max-width: 90rem;
+    padding: 2rem;
+   height: 25rem;
+} */
