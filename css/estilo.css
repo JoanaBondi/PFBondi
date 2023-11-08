@@ -1,18 +1,186 @@
-/* Error: expected selector.
- *   ,
- * 8 | .mapitaCompa @media (max-width:500px) {
- *   |              ^
- *   '
- *   scss\_contacto.scss 8:14  @import
- *   scss\estilo.scss 1:51     root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: expected selector.\a   \2577 \a 8 \2502  .mapitaCompa @media (max-width:500px) {\d\a   \2502               ^\a   \2575 \a   scss\\_contacto.scss 8:14  @import\a   scss\\estilo.scss 1:51     root stylesheet";
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
 }
+
+/* TÍTULOS RESPONSIV */
+h1 {
+  font-size: 6vw;
+  color: black;
+  text-align: center;
+  border-radius: 35%;
+}
+
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 3, 5vw;
+  color: white;
+  text-align: center;
+}
+
+.subtituloCompa {
+  color: black;
+}
+
+h3 {
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 3vw;
+  text-align: center;
+}
+
+/* PÁRRAFOS */
+.conocenos {
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.primerParrafo {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 0.7rem;
+  color: rgb(246, 239, 230);
+}
+
+body {
+  background-color: darkred;
+}
+
+/* HEADER */
+.fondoClaro {
+  background-color: whitesmoke;
+  background-size: cover;
+  background-position: center;
+}
+
+.logoCompa {
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
+/* BARRA DE NAVEGACIÓN */
+#navbarNavDropdown {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: whitesmoke;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: black;
+}
+
+.navCompa {
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.mapitaCompa {
+  padding: 3rem;
+}
+
+/* FORMULARIO */
+.formularioCompa {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+}
+
+.botoncito {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.boton {
+  background-color: beige;
+  border-radius: 1rem;
+  border: none;
+  padding: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.emailCompa,
+.grupos,
+.textoForm,
+.numerosEjemplo {
+  margin-top: 1.5rem;
+}
+
+/* FOOTER */
+footer .container {
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  color: whitesmoke;
+  margin-bottom: 15px;
+}
+
+.textoFooter {
+  font-size: 1.2rem;
+  color: whitesmoke;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.redesSociales a i {
+  color: whitesmoke;
+}
+
+/* VIDEOS */
+.fotoIndex {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+/* GALERIA DE FOTOS */
+.galeria {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.galeria img {
+  max-width: 400px;
+  padding: 1rem;
+}
+
+.abrazo {
+  display: flex;
+  width: 100%;
+  height: 45rem;
+  justify-content: center;
+}
+
+.fotoCompa {
+  width: 100%;
+}
+
+/* FOTOS CAROUSEL */
+/* #carouselExampleIndicators {
+    max-width: 90rem;
+    padding: 2rem;
+   height: 25rem;
+} */
+
+/*# sourceMappingURL=estilo.css.map */
