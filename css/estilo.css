@@ -80,6 +80,11 @@ body {
   font-size: 2.3rem;
 }
 
+.tituloQuienes {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .somos {
   color: white;
   font-size: 1.5rem;
@@ -93,14 +98,6 @@ body {
   font-family: "Ubuntu", sans-serif;
   text-align: center;
   margin-top: 2rem;
-}
-
-.fotoAbracito {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  display: flex;
-  justify-content: center;
 }
 
 /* HEADER */
@@ -160,13 +157,17 @@ ul {
 }
 
 .boton {
-  background-color: beige;
+  background-color: rgb(231, 231, 216);
   border-radius: 1rem;
   border: none;
   padding: 1rem;
-  text-transform: uppercase;
   cursor: pointer;
   font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: rgb(186, 27, 27);
 }
 
 .emailCompa,
@@ -214,6 +215,14 @@ footer .container {
   padding: 1rem;
 }
 
+.galeria {
+  transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.1);
+}
+
 .abrazo {
   display: flex;
   width: 100%;
@@ -231,5 +240,22 @@ footer .container {
     padding: 2rem;
    height: 25rem;
 } */
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.whatsapp-float i {
+  margin-top: 16px;
+}
 
 /*# sourceMappingURL=estilo.css.map */

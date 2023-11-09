@@ -80,10 +80,14 @@ body {
     font-size: 2.3rem;
 }
 
+
+
+
 //LISTA QUIENES SOMOS//
-
-
-
+.tituloQuienes {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 .somos {
     color: white;
     font-size: 1.5rem;
@@ -97,16 +101,6 @@ body {
     color: white;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-
     margin-top: 2rem;
 }
 
-.fotoAbracito {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    display: flex;
-    
-    justify-content: center;
-
-}
