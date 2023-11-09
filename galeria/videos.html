@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>quienessomos</title>
+    <title>Galería</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-
+    <!-- BARRA DE NAVEGACIÓN -->
 
     <header class="fondoClaro">
         <img class="logoCompa" src="../img/logo sin fondo.png" alt="Logo La Compañía">
@@ -48,11 +48,11 @@
                                 El Proyecto
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item navCompa" href="lacompa.html">La Compañía</a>
+                                <li><a class="dropdown-item navCompa" href="../proyecto/lacompa.html">La Compañía</a>
                                 </li>
-                                <li><a class="dropdown-item navCompa" href="escuela.html">La Escuela de la
+                                <li><a class="dropdown-item navCompa" href="../proyecto/escuela.html">La Escuela de la
                                         Compa</a></li>
-                                <li><a class="dropdown-item navCompa" href="kids.html">Compa Kids -
+                                <li><a class="dropdown-item navCompa" href="../proyecto/kids.html">Compa Kids -
                                         Babies</a></li>
                             </ul>
                         </li>
@@ -65,9 +65,9 @@
                                 Galería
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item navCompa" href="../galeria/fotos.html">Fotos</a>
+                                <li><a class="dropdown-item navCompa" href="fotos.html">Fotos</a>
                                 </li>
-                                <li><a class="dropdown-item navCompa" href="../galeria/videos.html">Videos</a></li>
+                                <li><a class="dropdown-item navCompa" href="videos.html">Videos</a></li>
                                 
                             </ul>
                         </li>
@@ -82,27 +82,41 @@
     </header>
 
 
-    <main class="laCompaPag">
-        <div>
-            <h2 class="compañia">La Compañía</h2>
-            <h3 class="cuerpos">Cuerpxs que suenan</h3>
-            <p class="textoPagCompa">
-                Es el formato taller del proyecto nuclear. Ideal para personas adultas que buscan un espacio
-                lúdico-musical en el cual contactar con otrxs a la vez que ejercitar habilidades nuevas sin la exigencia
-                del entrenamiento de La Compañía.
-            </p>
-        </div>
+    <!-- GALERÍA CON FLEX EN CSS -->
 
-        <div>
-            <img class="vertical" src="../img/galponvertical.jpg" alt="imagen de todos en el escenario">
-        </div>
-    </main>
+    <h2>Galería de videos</h2>
 
-    <!-- WHATSAPP -->
+    
+
+    <!-- VIDEOS CON CLASS RATIO BS -->
+    <h2>Nuestros videos</h2>
+
+    <h3>Cadaver exquisito - Fito Paez.</h3>
+
+    <div class="ratio ratio-16x9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7Z1AxLenjis?si=0FzqFou132ydAhhY"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+
+    <h3>Creo - Eruca Sativa</h3>
+
+    <div class="ratio ratio-16x9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ssG0tuejWLg?si=rlEWcd6H9QV_gmM9"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+    </div>
+
+<!-- WHATSAPP -->
     <a href="https://wa.me/3413044895" class="whatsapp-float" target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
 
+
+    <!-- FOOTER -->
 
     <footer>
         <div class="container">
@@ -128,3 +142,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+</body>
