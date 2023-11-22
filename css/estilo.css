@@ -54,11 +54,14 @@ body {
   background-color: darkred;
 }
 
-.carruselCompa {
+.imgCompa {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
   padding: 0.7rem;
 }
 
-.kids {
+.carruselCompa {
   padding: 0.7rem;
 }
 
