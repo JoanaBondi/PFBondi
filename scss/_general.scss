@@ -52,21 +52,12 @@ body {
     background-color: $colorBody;
 }
 
-//html:lacompa//
-// .laCompaPag {
-//     display: flex;
-
-
-// }
-
-// @media (max-width: 920px) {
-//     .laCompaPag {
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//     }
-    
-// }
+.imgCompa {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+}
 
 
 .carruselCompa {
@@ -74,10 +65,7 @@ body {
 }
 
 
-.kids {
-    
-    padding: 0.7rem;
-}
+
 
 .textoPagCompa {
     text-align: center;
